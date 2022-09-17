@@ -67,4 +67,17 @@
   .number > img{
     height: 30px;
     width: 30px;
-  }
+  }@media(max-width:768px){ 
+     body{ 
+         width: 100%; 
+     } 
+     . container { 
+         height: auto; 
+         width: auto;
+     } 
+     .inner{ 
+         margin-bottom: 2rem; 
+         height: fit-content; 
+         width: auto
+     }
+}
