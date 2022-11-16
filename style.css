@@ -58,11 +58,13 @@
    background-color:#0c96c4;
    font-size: large;
    border:#0c96c4;
+   cursor: pointer;
   }
 
   .number{
     display: flex;
     justify-content:right;
+    cursor: pointer;
   }
   .number > img{
     height: 30px;
