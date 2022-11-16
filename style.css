@@ -51,24 +51,24 @@
     align-items:center;
     justify-content: center;
     background-color:#0c96c4; 
-    border-radius: 0 0 2rem 2rem;  
+    border-radius: 0 0 2rem 2rem;
+       cursor: pointer;
   }
   #newQuotes{
    display: block;
    background-color:#0c96c4;
    font-size: large;
    border:#0c96c4;
-   cursor: pointer;
   }
 
   .number{
     display: flex;
     justify-content:right;
-    cursor: pointer;
   }
   .number > img{
     height: 30px;
     width: 30px;
+    cursor: pointer;
   }@media only screen and (max-width: 768px) {
     .inner{
       width: 75%;
