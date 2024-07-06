@@ -47,7 +47,7 @@
         }
 
         const getNewQuotes = () =>{
-            let randomQuotes = (Math.floor(Math.random()*16)); // Number of quotes Decreased 1000 to 16 from api
+            let randomQuotes = (Math.floor(Math.random()*16)); // Number of quotes Decreased 1000 to 16 from api --->
             console.log(randomQuotes);
             quotesData = objData[randomQuotes];
             quotes.innerHTML = `${quotesData.text}`;
